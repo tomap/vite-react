@@ -10,13 +10,13 @@ dependencies:
     version: 7.0.2
   '@vitejs/plugin-legacy':
     specifier: ^5.3.0
-    version: 5.3.0(esbuild@0.19.12)(terser@5.27.0)(vite@5.0.12)
+    version: 5.3.0(esbuild@0.19.12)(terser@5.27.0)(vite@5.1.8)
   '@vitejs/plugin-react':
     specifier: ^4.2.1
-    version: 4.2.1(vite@5.0.12)
+    version: 4.2.1(vite@5.1.8)
   '@vitejs/plugin-react-swc':
     specifier: ^3.6.0
-    version: 3.6.0(vite@5.0.12)
+    version: 3.6.0(vite@5.1.8)
   less:
     specifier: ^4.2.0
     version: 4.2.0
@@ -28,19 +28,19 @@ dependencies:
     version: 5.27.0
   vite-plugin-html:
     specifier: ^3.2.2
-    version: 3.2.2(vite@5.0.12)
+    version: 3.2.2(vite@5.1.8)
   vite-plugin-mkcert:
     specifier: ^1.17.3
-    version: 1.17.3(vite@5.0.12)
+    version: 1.17.3(vite@5.1.8)
   vite-plugin-qrcode:
     specifier: ^0.2.3
-    version: 0.2.3(vite@5.0.12)
+    version: 0.2.3(vite@5.1.8)
   vite-plugin-restart:
     specifier: ^0.4.0
-    version: 0.4.0(vite@5.0.12)
+    version: 0.4.0(vite@5.1.8)
   vite-tsconfig-paths:
     specifier: ^4.3.1
-    version: 4.3.1(typescript@5.3.3)(vite@5.0.12)
+    version: 4.3.1(typescript@5.3.3)(vite@5.1.8)
 
 devDependencies:
   '@types/node':
@@ -59,8 +59,8 @@ devDependencies:
     specifier: ^5.3.3
     version: 5.3.3
   vite:
-    specifier: ^5.0.12
-    version: 5.0.12(@types/node@18.19.14)(less@4.2.0)(sass@1.70.0)(terser@5.27.0)
+    specifier: ^5.1.8
+    version: 5.1.8(@types/node@18.19.14)(less@4.2.0)(sass@1.70.0)(terser@5.27.0)
 
 packages:
 
@@ -1875,7 +1875,7 @@ packages:
     dependencies:
       undici-types: 5.26.5
 
-  /@vitejs/plugin-legacy@5.3.0(esbuild@0.19.12)(terser@5.27.0)(vite@5.0.12):
+  /@vitejs/plugin-legacy@5.3.0(esbuild@0.19.12)(terser@5.27.0)(vite@5.1.8):
     resolution: {integrity: sha512-BhW+WcJmEgW5G/1UQRiVQ7wz9/ZPnxqzExT9n0zAk4RlqQQ/26udIeXzdU8+03AGnaF61wmZlCspexgEnxFWMA==}
     engines: {node: ^18.0.0 || >=20.0.0}
     peerDependencies:
@@ -1891,24 +1891,24 @@ packages:
       regenerator-runtime: 0.14.1
       systemjs: 6.14.3
       terser: 5.27.0
-      vite: 5.0.12(@types/node@18.19.14)(less@4.2.0)(sass@1.70.0)(terser@5.27.0)
+      vite: 5.1.8(@types/node@18.19.14)(less@4.2.0)(sass@1.70.0)(terser@5.27.0)
     transitivePeerDependencies:
       - esbuild
       - supports-color
     dev: false
 
-  /@vitejs/plugin-react-swc@3.6.0(vite@5.0.12):
+  /@vitejs/plugin-react-swc@3.6.0(vite@5.1.8):
     resolution: {integrity: sha512-XFRbsGgpGxGzEV5i5+vRiro1bwcIaZDIdBRP16qwm+jP68ue/S8FJTBEgOeojtVDYrbSua3XFp71kC8VJE6v+g==}
     peerDependencies:
       vite: ^4 || ^5
     dependencies:
       '@swc/core': 1.4.0
-      vite: 5.0.12(@types/node@18.19.14)(less@4.2.0)(sass@1.70.0)(terser@5.27.0)
+      vite: 5.1.8(@types/node@18.19.14)(less@4.2.0)(sass@1.70.0)(terser@5.27.0)
     transitivePeerDependencies:
       - '@swc/helpers'
     dev: false
 
-  /@vitejs/plugin-react@4.2.1(vite@5.0.12):
+  /@vitejs/plugin-react@4.2.1(vite@5.1.8):
     resolution: {integrity: sha512-oojO9IDc4nCUUi8qIR11KoQm0XFFLIwsRBwHRR4d/88IWghn1y6ckz/bJ8GHDCsYEJee8mDzqtJxh15/cisJNQ==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
@@ -1919,7 +1919,7 @@ packages:
       '@babel/plugin-transform-react-jsx-source': 7.23.3(@babel/core@7.23.9)
       '@types/babel__core': 7.20.5
       react-refresh: 0.14.0
-      vite: 5.0.12(@types/node@18.19.14)(less@4.2.0)(sass@1.70.0)(terser@5.27.0)
+      vite: 5.1.8(@types/node@18.19.14)(less@4.2.0)(sass@1.70.0)(terser@5.27.0)
     transitivePeerDependencies:
       - supports-color
     dev: false
@@ -2974,6 +2974,10 @@ packages:
 
   /picocolors@1.0.0:
     resolution: {integrity: sha512-1fygroTLlHu66zi26VoTDv8yRgm0Fccecssto+MhsZ0D/DGW2sm8E8AjW7NU5VVTRt5GxbeZ5qBuJr+HyLYkjQ==}
+    dev: false
+
+  /picocolors@1.1.0:
+    resolution: {integrity: sha512-TQ92mBOW0l3LeMeyLV6mzy/kWr8lkd/hp3mTg7wYK7zJhuBStmGMBG0BdeDZS/dZx1IukaX6Bk11zcln25o1Aw==}
 
   /picomatch@2.3.1:
     resolution: {integrity: sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==}
@@ -3006,13 +3010,13 @@ packages:
       yaml: 2.3.4
     dev: true
 
-  /postcss@8.4.34:
-    resolution: {integrity: sha512-4eLTO36woPSocqZ1zIrFD2K1v6wH7pY1uBh0JIM2KKfrVtGvPFiAku6aNOP0W1Wr9qwnaCsF0Z+CrVnryB2A8Q==}
+  /postcss@8.4.47:
+    resolution: {integrity: sha512-56rxCq7G/XfB4EkXq9Egn5GCqugWvDFjafDOThIdMBsI15iqPqR5r15TfSr1YPYeEI19YeaXMCbY6u88Y76GLQ==}
     engines: {node: ^10 || ^12 || >=14}
     dependencies:
       nanoid: 3.3.7
-      picocolors: 1.0.0
-      source-map-js: 1.0.2
+      picocolors: 1.1.0
+      source-map-js: 1.2.1
 
   /prettier@3.2.5:
     resolution: {integrity: sha512-3/GWa9aOC0YeD7LUfvOG2NiDyhOWRvt1k+rcKhOuYnMY24iiCphgneUfJDyFXd6rZCAnuLBv6UeAULtrhT/F4A==}
@@ -3201,6 +3205,10 @@ packages:
 
   /source-map-js@1.0.2:
     resolution: {integrity: sha512-R0XvVJ9WusLiqTCEiGCmICCMplcCkIwwR11mOSD9CR5u+IXYdiseeEuXCVAjS54zqwkLcPNnmU4OeJ6tUrWhDw==}
+    engines: {node: '>=0.10.0'}
+
+  /source-map-js@1.2.1:
+    resolution: {integrity: sha512-UXWMKhLOwVKb728IUtQPXxfYU+usdybtUrK/8uGE8CQMvrhOpwvzDBwj0QhSL7MQc7vIsISBG8VQ8+IDQxpfQA==}
     engines: {node: '>=0.10.0'}
 
   /source-map-support@0.5.21:
@@ -3449,7 +3457,7 @@ packages:
       picocolors: 1.0.0
     dev: false
 
-  /vite-plugin-html@3.2.2(vite@5.0.12):
+  /vite-plugin-html@3.2.2(vite@5.1.8):
     resolution: {integrity: sha512-vb9C9kcdzcIo/Oc3CLZVS03dL5pDlOFuhGlZYDCJ840BhWl/0nGeZWf3Qy7NlOayscY4Cm/QRgULCQkEZige5Q==}
     peerDependencies:
       vite: '>=2.0.0'
@@ -3466,10 +3474,10 @@ packages:
       html-minifier-terser: 6.1.0
       node-html-parser: 5.4.2
       pathe: 0.2.0
-      vite: 5.0.12(@types/node@18.19.14)(less@4.2.0)(sass@1.70.0)(terser@5.27.0)
+      vite: 5.1.8(@types/node@18.19.14)(less@4.2.0)(sass@1.70.0)(terser@5.27.0)
     dev: false
 
-  /vite-plugin-mkcert@1.17.3(vite@5.0.12):
+  /vite-plugin-mkcert@1.17.3(vite@5.1.8):
     resolution: {integrity: sha512-C8iLz4Su4kEyJb1GdlGIMfKkYMqfH5qvhqVP1x/hrc+1mo9GOzqU88mevvP5epgoqawkhVpcQVQ+HTFXsRuC0g==}
     engines: {node: '>=v16.7.0'}
     peerDependencies:
@@ -3479,31 +3487,31 @@ packages:
       axios: 1.6.7(debug@4.3.4)
       debug: 4.3.4
       picocolors: 1.0.0
-      vite: 5.0.12(@types/node@18.19.14)(less@4.2.0)(sass@1.70.0)(terser@5.27.0)
+      vite: 5.1.8(@types/node@18.19.14)(less@4.2.0)(sass@1.70.0)(terser@5.27.0)
     transitivePeerDependencies:
       - supports-color
     dev: false
 
-  /vite-plugin-qrcode@0.2.3(vite@5.0.12):
+  /vite-plugin-qrcode@0.2.3(vite@5.1.8):
     resolution: {integrity: sha512-TFzhf20v29hnh2XEoZ2kxg8Ff/ui36pR7PGDaHaKEmsQaRagv31XacHxbw5O07HcC1Mkr4tKcYb+PFASSceHmw==}
     engines: {node: ^14.13.1 || ^16.0.0 || >=18}
     peerDependencies:
       vite: ^3.0.0 || ^4.0.0 || ^5.0.0
     dependencies:
       qrcode-terminal: 0.12.0
-      vite: 5.0.12(@types/node@18.19.14)(less@4.2.0)(sass@1.70.0)(terser@5.27.0)
+      vite: 5.1.8(@types/node@18.19.14)(less@4.2.0)(sass@1.70.0)(terser@5.27.0)
     dev: false
 
-  /vite-plugin-restart@0.4.0(vite@5.0.12):
+  /vite-plugin-restart@0.4.0(vite@5.1.8):
     resolution: {integrity: sha512-SXeyKQAzRFmEmEyGP2DjaTbx22D1K5MapyNiAP7Xa14UyFgNSDjZ86bfjWksA0pqn+bZyxnVLJpCiqDuG+tOcg==}
     peerDependencies:
       vite: ^2.9.0 || ^3.0.0 || ^4.0.0 || ^5.0.0
     dependencies:
       micromatch: 4.0.5
-      vite: 5.0.12(@types/node@18.19.14)(less@4.2.0)(sass@1.70.0)(terser@5.27.0)
+      vite: 5.1.8(@types/node@18.19.14)(less@4.2.0)(sass@1.70.0)(terser@5.27.0)
     dev: false
 
-  /vite-tsconfig-paths@4.3.1(typescript@5.3.3)(vite@5.0.12):
+  /vite-tsconfig-paths@4.3.1(typescript@5.3.3)(vite@5.1.8):
     resolution: {integrity: sha512-cfgJwcGOsIxXOLU/nELPny2/LUD/lcf1IbfyeKTv2bsupVbTH/xpFtdQlBmIP1GEK2CjjLxYhFfB+QODFAx5aw==}
     peerDependencies:
       vite: '*'
@@ -3514,14 +3522,14 @@ packages:
       debug: 4.3.4
       globrex: 0.1.2
       tsconfck: 3.0.1(typescript@5.3.3)
-      vite: 5.0.12(@types/node@18.19.14)(less@4.2.0)(sass@1.70.0)(terser@5.27.0)
+      vite: 5.1.8(@types/node@18.19.14)(less@4.2.0)(sass@1.70.0)(terser@5.27.0)
     transitivePeerDependencies:
       - supports-color
       - typescript
     dev: false
 
-  /vite@5.0.12(@types/node@18.19.14)(less@4.2.0)(sass@1.70.0)(terser@5.27.0):
-    resolution: {integrity: sha512-4hsnEkG3q0N4Tzf1+t6NdN9dg/L3BM+q8SWgbSPnJvrgH2kgdyzfVJwbR1ic69/4uMJJ/3dqDZZE5/WwqW8U1w==}
+  /vite@5.1.8(@types/node@18.19.14)(less@4.2.0)(sass@1.70.0)(terser@5.27.0):
+    resolution: {integrity: sha512-mB8ToUuSmzODSpENgvpFk2fTiU/YQ1tmcVJJ4WZbq4fPdGJkFNVcmVL5k7iDug6xzWjjuGDKAuSievIsD6H7Xw==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
     peerDependencies:
@@ -3551,7 +3559,7 @@ packages:
       '@types/node': 18.19.14
       esbuild: 0.19.12
       less: 4.2.0
-      postcss: 8.4.34
+      postcss: 8.4.47
       rollup: 4.9.6
       sass: 1.70.0
       terser: 5.27.0
